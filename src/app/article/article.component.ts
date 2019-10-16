@@ -7,7 +7,7 @@ import { Article } from './article.model';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
-  @HostBinding('attr.clas') cssClass = 'row';
+  @HostBinding('attr.class') cssClass = 'row';
   @Input() article: Article;
 
   constructor() {
